@@ -7,7 +7,8 @@ import Nav1 from './Units/Nav1';
 export default function App() {
   return (
     <div>
-      <Nav1 />
+      <h1 className = "text-center"></h1>
+      <Nav1></Nav1>
        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/BlogForm" element={<BlogForm/>} />
